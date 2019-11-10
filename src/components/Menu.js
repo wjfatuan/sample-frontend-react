@@ -6,15 +6,15 @@ import {
 class Menu extends React.Component {
   render() {
       return <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
+      <ul class="nav">
+        <li class="nav-item">
+          <Link to="/" class="nav-link">Home</Link>
         </li>
-        <li>
-          <Link to="/page1">Page 1</Link>
+        <li class="nav-item">
+          <Link to="/page1" class="nav-link">Page 1</Link>
         </li>
-        <li>
-          <Link to="/page2">Page 2</Link>
+        <li class="nav-item">
+          <Link to="/page2" class="nav-link">Page 2</Link>
         </li>
       </ul>
     </nav>;
